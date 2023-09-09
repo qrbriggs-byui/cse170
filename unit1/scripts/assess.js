@@ -24,7 +24,7 @@ for (let i=1; i<7; i++){
     let resultelt = document.getElementById("result"+i);
     resultelt.innerText = result;
     resultelt.style.backgroundColor = `rgb(${((28-result)/28)*255}, ${(result/28)*255}, 0)`
-    console.log(`rgb(${((28-result)/28)*255}, ${(result/28)*255}, 0)`)
+    console.log(`rgb(${((28-result)/28)*128+127}, ${(result/28)*255}, 0)`)
 }
 
 document.getElementById("results").style.display='block'
