@@ -2,7 +2,7 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
     width: 720px;
-    background-color: #FEC;
+    background-color: #FEC;    
   }
   label {
     padding: 0.5rem;
@@ -20,4 +20,17 @@ body {
   }
   fieldset{
     background-color: #ECA;
+  }
+  button{
+    font-size: 1.5rem;
+    padding: .5rem;
+    background-color: #F55;
+  }
+  #header{
+    text-align: center;    
+  }
+  img{
+    border: 3px black dashed;
+    padding: 1rem;
+    background-color: white;
   }

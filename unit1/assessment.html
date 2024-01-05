@@ -9,9 +9,14 @@
   </head>
   <body>
     <form>
-      <h1>CSE 170 Emotional Intelligence Self-Assessment</h1>
+      <div id="header">
+      <h1>CSE 170<br>Emotional Intelligence Self-Assessment</h1>
+      <img src="images/emotional-intelligence.png" alt="Emotional intelligence domains graphic">
+      <h2>This assessment is to help you understand how you rate yourself in each of the emotional intelligence categories.</h2>
+      </div>
       <fieldset>
         <h2>Self-Awareness</h2>
+        <h3>Rate how well you understand yourself and your tendencies.</h3>
         <p>1. I quickly realize when my thoughts turn negative or make me angry.</p>
         <div class="choices">
           <label><input type="radio" name="1-1" value="0" />Strongly Disagree</label>
@@ -71,6 +76,7 @@
       </fieldset>
       <fieldset>
         <h2>Self-Discipline</h2>
+        <h3>Rate how well you are able to manage different aspects of your self.</h3>
         <p>8. I am open to feedback during discussions with others.</p>
         <div class="choices">
           <label><input type="radio" name="2-1" value="0" />Strongly Disagree</label>
@@ -130,6 +136,7 @@
       </fieldset>
       <fieldset>
         <h2>Social Awareness</h2>
+        <h3>Rate how well you are able to understand your relationships with others.</h3>
         <p>15. I freely share my thoughts and feelings with others in my group.</p>
         <div class="choices">
           <label><input type="radio" name="3-1" value="0" />Strongly Disagree</label>
@@ -189,6 +196,7 @@
       </fieldset>
       <fieldset>
         <h2>Relationship Management</h2>
+        <h3>Rate how well you are able to manange and affect your relationships with others.</h3>
         <p>22. I actively seek ways to resolve conflicts with others in my group.</p>
         <div class="choices">
           <label><input type="radio" name="4-1" value="0" />Strongly Disagree</label>
@@ -248,6 +256,7 @@
       </fieldset>
       <fieldset>
         <h2>Organizational Awareness</h2>
+        <h3>Rate how well you are able to understand relationships within a larger community, such as a church group, work team or extended family.</h3>
         <p>29. I strive to meet the expectations of the community members I represent.</p>
         <div class="choices">
           <label><input type="radio" name="5-1" value="0" />Strongly Disagree</label>
@@ -307,6 +316,7 @@
       </fieldset>
       <fieldset>
         <h2>Organizational Management</h2>
+        <h3>Rate how well you are able to manage and affect relationships within a larger community, such as a church quorum, work team or extended family.</h3>
         <p>36. I strive to adhere to the rules and policies of the community.</p>
         <div class="choices">
           <label><input type="radio" name="6-1" value="0" />Strongly Disagree</label>
@@ -399,6 +409,7 @@
       </table>
       <h2>Review your results and write a paragraph about what area you might like to improve.</h2>
       <textarea cols="80" rows="5"></textarea>
+      <button onclick="window.print()">Print/Export My Results</button>      
     </div>
   </body>
 </html>
